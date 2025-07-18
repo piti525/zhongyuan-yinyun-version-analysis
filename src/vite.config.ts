@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
 
   return {
+    base: '/zhongyuan-yinyun-version-analysis/',
     //
     // --- 这是我们添加的关键配置！ ---
     //
