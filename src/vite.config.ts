@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => {
     //
     // --- 这是我们添加的关键配置！ ---
     //
-    base: '/zhongyuan-yinyun-version-analysis/',
+   
 
     plugins: [
       react(), // 假设你用了react, 如果没有可以删掉这行
